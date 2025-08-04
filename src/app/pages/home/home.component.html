@@ -6,11 +6,11 @@
     <title>PortfolioSyrine</title>
 </head>
 <body class="m-0 p-0 bg-stars text-white">
-
+ <!-- nav bar -->
     <app-navbar> </app-navbar>
-
-    <div class="bg-stars text-white p-0 flex  justify-between items-center"> 
-        <div class="flex flex-col  justify-center text-left space-y-3 font-serif text-5xl  p-12">
+ <!-- home -->
+    <div class="bg-stars text-white p-0 flex  justify-between items-center "> 
+        <div class="flex flex-col  justify-center text-left space-y-3 font-serif text-5xl  p-12 ">
            <b>Hi There !</b>
            <b class="text-center">I'm <span class="text-pink-700">Kahweji Sirine</span></b>
            <div class="w-88 h-48 flex items-center justify-center text-white text-right text-4xl font-bold relative overflow-hidden ">
@@ -18,21 +18,26 @@
                 <div class="absolute" [ngClass]="currentText === 'mobile' ? 'typing' : 'hidden'">Mobile Developer </div>
            </div>
         </div>
-    <div>
-        <img src="/image6.png" alt="Moi" class="w-66 h-auto " />
+    <div >
+        <img src="/image6.png" alt="Moi" class="w-66 h-auto mt-10" />
     </div>
 </div>
-<div class="flex justify-end px-7 -mt-8 display-block">
+<div class="fixed bottom-4 right-4 z-50">
 <div class=" bg-[#AFA9D9] rounded-full  inline-block">
         <ul class="  flex font-bold space-x-5 pl-8 pr-8  inline-block">
-            <li class="flex"><img src="/youtube.png" class="w-10 h-10"> <span class="mt-2">Youtube</span></li>
-            <li class="flex"><img src="/github.png" class="w-12 h-10"> <span class="mt-2">GitHub</span></li>
-            <li class="flex"><img src="/linkedin.png" class="w-10 h-10"> <span class="mt-2">LinkedIn</span></li>
+            <li ><a href="https://www.youtube.com/@sirinekahweji" class="flex"><img src="/youtube.png" class="w-10 h-10"> <span class="mt-2">Youtube</span></a></li>
+            <li ><a href="https://github.com/sirinekahweji" class="flex"><img src="/github.png" class="w-12 h-10"> <span class="mt-2">GitHub</span></a></li>
+            <li ><a href="https://www.linkedin.com/in/sirine-kahweji-1593b12a7/" class="flex"><img src="/linkedin.png" class="w-10 h-10"> <span class="mt-2">LinkedIn</span></a></li>
         </ul>
 
     </div>
 
 </div>
+
+
+<!-- about -->
+
+<app-about></app-about>
     
 </body>
 </html>
