@@ -1,0 +1,27 @@
+/*annimation text*/
+.typing {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  width: 0;
+  animation: typing 2s steps(30) forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+  
+
+.bg-stars {
+        background: 
+          linear-gradient(to right, #F2B3D1, #EECEF2, #CAB4D9),
+          url('https://www.transparenttextures.com/patterns/stardust.png');
+        background-blend-mode: overlay;
+      }
+/*background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");*/
+
+
+
+
+
