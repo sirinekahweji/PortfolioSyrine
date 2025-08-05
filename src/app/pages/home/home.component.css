@@ -1,17 +1,15 @@
 /*annimation text*/
-.typing {
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 2px solid white;
-  width: 0;
-  animation: typing 2s steps(30) forwards;
-}
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
-  
+
+.animate-typing {
+  animation: typing 3s steps(40, end) forwards;
+  display: inline-block;
+  width: 0;
+}
 
 .bg-stars {
         background: 
