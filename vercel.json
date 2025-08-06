@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/portfoliosyrine/browser/**/*",
+      "src": "dist/portfoliosyrine/browser/index.html",
       "use": "@vercel/static"
     }
   ],
