@@ -1,100 +1,101 @@
 
 <div>
     <!--  part1 -->
-<div class="bg-stars text-white p-0 flex  justify-between items-center" >
-    <div class="flex flex-col  justify-center text-left space-y-10 font-serif text-xl  p-12 font-bold">
-        <b class="text-center text-5xl"> Curious about what I’ve built ?</b>
-           <p>
-            <b class="text-pink-700" >Explore a curated collection of my recent projects </b>— each one tells a unique story <br>
-            where creativity meets problem-solving. From concept to development,<br>
-             these works showcase my passion for building impactful solutions <br>
-              and my versatility across different domains. <br> <br>
-              <b class="text-[#6A5C90] ">Take a look and see how I bring ideas to life through code and design.</b>
-           </p>
+<div class="bg-stars text-white">
+  <section class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16">
+    <div class="flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8 md:gap-12">
+      <div class="w-full md:w-1/2 text-center md:text-left font-serif font-bold">
+        <h2 class="text-2xl sm:text-3xl md:text-5xl">Curious about what I’ve built ?</h2>
 
+        <p class="mt-4 text-sm sm:text-base md:text-lg font-normal leading-relaxed">
+          <span class="text-pink-700 font-semibold">Explore a curated collection of my recent projects</span> — each one tells a unique story
+          where creativity meets problem-solving. From concept to development, these works showcase my passion
+          for building impactful solutions and my versatility across different domains.
+          <br class="hidden md:block" />
+          <span class="block mt-4 text-[#6A5C90] font-semibold">
+            Take a look and see how I bring ideas to life through code and design.
+          </span>
+        </p>
+      </div>
+
+      <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+        <img src="/image7.png" alt="Moi" class="w-48 sm:w-64 md:w-80 lg:w-[28rem] h-auto mt-4 md:mt-0" />
+      </div>
     </div>
-    <div>
-            <img src="/image7.png" alt="Moi" class="w-63 h-auto mt-10" />
-    </div>
+  </section>
 </div>
 
+
 <!-- part2 -->
- <div class="p-10 flex flex-col font-bold">
-    <b class="text-center text-6xl font-serif">Open Source  Projects </b>
+<div class="p-6 sm:p-10 font-bold">
+  <h2 class="text-center text-3xl sm:text-4xl md:text-6xl font-serif">Open Source Projects</h2>
 
-    <div class="grid grid-cols-3 gap-6 p-9">
-
-        <div class="transition-transform duration-300 hover:scale-105  flex flex-col rounded-md bg-[rgba(139,58,128,0.3)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)] p-0 justify-center items-center" >
-            <img src="\thebattleforwesnoth.png" class=" w-100 h-60">
-            
-            <b class="font-serif p-2" >Simulation of the game the battle for wesnoth</b>
-            <ul class="flex ">
-                <li class="p-2"> C </li>
-                <li class="p-2"> SDL </li>
-            </ul>
-            <div class="grid grid-cols-2 gap-6 p-4 ">
-            <div class="flex justify-center items-center  p-2 rounded-lg  bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)] ">
-                <img src="\github.png" class=" w-5 h-5">
-                <b> <a href="https://github.com/sirinekahweji/The-battle-for-wesnoth">GitHub</a> </b>
-            </div>
-            <div class="flex justify-center items-center p-2  rounded-lg  bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)] ">
-                <img src="\youtube.png" class="w-5 h-5">
-                <b> <a href="https://www.youtube.com/watch?v=gyUbtwpf-Ec&t=64s">Demo</a> </b>
-            </div>
-            </div>
-
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:p-6 md:p-9">
+    
+    <!-- Carte -->
+    <div class="transition-transform duration-300 hover:scale-105 flex flex-col rounded-md bg-[rgba(139,58,128,0.3)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)] justify-center items-center">
+      <img src="/thebattleforwesnoth.png" class="w-full h-48 sm:h-60 object-cover rounded-t-md">
+      <b class="font-serif p-2 text-center">Simulation of the game the battle for wesnoth</b>
+      <ul class="flex flex-wrap justify-center">
+        <li class="p-2">C</li>
+        <li class="p-2">SDL</li>
+      </ul>
+      <div class="grid grid-cols-2 gap-4 p-4 w-full">
+        <div class="flex justify-center items-center p-2 rounded-lg bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
+          <img src="/github.png" class="w-5 h-5 mr-2">
+          <b><a href="https://github.com/sirinekahweji/The-battle-for-wesnoth">GitHub</a></b>
         </div>
-        <div class=" transition-transform duration-300 hover:scale-105 flex flex-col rounded-md bg-[rgba(139,58,128,0.3)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)] p-0 justify-center items-center" >
-            <img src="\questions.png" class=" w-100 h-60">
-            <b class="font-serif p-2 " >Quize Bot</b>
-            <ul class="flex">
-                <li class="p-2"> React JS </li>
-                <li class="p-2"> Express JS </li>
-                <li class="p-2"> Mongo DB </li>
-            </ul>
-            <div class="grid grid-cols-2 gap-6 p-4">
-            <div class="flex justify-center items-center p-2 rounded-lg  bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
-                <img src="\github.png" class=" w-5 h-5">
-                <b> <a href="https://github.com/sirinekahweji/QuizPot-Project">GitHub</a> </b>
-            </div>
-            <div class="flex justify-center items-center p-2 rounded-lg  bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
-                <img src="\youtube.png" class="w-5 h-5">
-                <b><a href="https://www.youtube.com/watch?v=_09BtfQqvzg&t=11s">Demo</a>  </b>
-            </div>
-            </div>
-
+        <div class="flex justify-center items-center p-2 rounded-lg bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
+          <img src="/youtube.png" class="w-5 h-5 mr-2">
+          <b><a href="https://www.youtube.com/watch?v=gyUbtwpf-Ec&t=64s">Demo</a></b>
         </div>
-        <div class=" transition-transform duration-300 hover:scale-105 flex flex-col rounded-md bg-[rgba(139,58,128,0.3)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)] p-0 justify-center items-center" >
-                 <img src="\Mobile.png" class=" w-100 h-60">
-
-
-            <b class="font-serif p-2"> Mobile books app</b>
-            <ul class="flex ">
-                <li class="p-2"> Flutter</li>
-                <li class="p-2"> Express JS </li>
-            </ul>
-            <div class="grid grid-cols-2 gap-6 p-4">
-            <div class="flex justify-center items-center p-2 rounded-lg bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
-                <img src="\github.png" class=" w-5 h-5">
-                <b> <a href="https://github.com/sirinekahweji/InkSphere-Flutter-ExpressJS">GitHub</a>  </b>
-            </div>
-            <div class="flex items-centre justify-center p-2  rounded-lg bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
-                <img src="\youtube.png" class="w-5 h-5">
-                <b> <a href="https://www.youtube.com/watch?v=ZeQDkF9ouOs&t=8s">Demo</a> </b>
-            </div>
-            </div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-
+      </div>
     </div>
 
- </div>
+    <!-- Carte -->
+    <div class="transition-transform duration-300 hover:scale-105 flex flex-col rounded-md bg-[rgba(139,58,128,0.3)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)] justify-center items-center">
+      <img src="/questions.png" class="w-full h-48 sm:h-60 object-cover rounded-t-md">
+      <b class="font-serif p-2 text-center">Quize Bot</b>
+      <ul class="flex flex-wrap justify-center">
+        <li class="p-2">React JS</li>
+        <li class="p-2">Express JS</li>
+        <li class="p-2">Mongo DB</li>
+      </ul>
+      <div class="grid grid-cols-2 gap-4 p-4 w-full">
+        <div class="flex justify-center items-center p-2 rounded-lg bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
+          <img src="/github.png" class="w-5 h-5 mr-2">
+          <b><a href="https://github.com/sirinekahweji/QuizPot-Project">GitHub</a></b>
+        </div>
+        <div class="flex justify-center items-center p-2 rounded-lg bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
+          <img src="/youtube.png" class="w-5 h-5 mr-2">
+          <b><a href="https://www.youtube.com/watch?v=_09BtfQqvzg&t=11s">Demo</a></b>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carte -->
+    <div class="transition-transform duration-300 hover:scale-105 flex flex-col rounded-md bg-[rgba(139,58,128,0.3)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)] justify-center items-center">
+      <img src="/Mobile.png" class="w-full h-48 sm:h-60 object-cover rounded-t-md">
+      <b class="font-serif p-2 text-center">Mobile books app</b>
+      <ul class="flex flex-wrap justify-center">
+        <li class="p-2">Flutter</li>
+        <li class="p-2">Express JS</li>
+      </ul>
+      <div class="grid grid-cols-2 gap-4 p-4 w-full">
+        <div class="flex justify-center items-center p-2 rounded-lg bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
+          <img src="/github.png" class="w-5 h-5 mr-2">
+          <b><a href="https://github.com/sirinekahweji/InkSphere-Flutter-ExpressJS">GitHub</a></b>
+        </div>
+        <div class="flex justify-center items-center p-2 rounded-lg bg-[rgba(101,88,137,0.35)] shadow-[0_0_15px_5px_rgba(106,92,144,0.6)]">
+          <img src="/youtube.png" class="w-5 h-5 mr-2">
+          <b><a href="https://www.youtube.com/watch?v=ZeQDkF9ouOs&t=8s">Demo</a></b>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 
 
