@@ -1,24 +1,25 @@
-<div class=" p-0 flex  justify-between items-center ">
-
-    <div class="flex flex-col   text-left space-y-10 font-serif text-xl  p-12 font-bold">
-         <b class="text-center lg:text-6xl  text-3xl font-serif" > Contact Me</b>
-        <b><span class="text-pink-700">Feel free to reach out</span> — I’m always open to new ideas, collaborations, or simple question.</b>
-       <div>
-        <div class="flex justify-center items-center ">
-            <img src="/contact.png " class="w-10 h-10 ">
-            <p>{{user.email}}</p>
-        </div>
-        <div class=" flex items-center justify-center  " >
-            <img src="/phone.png " class="w-10 h-10">
-            <b>{{user.phone}}</b>
-        </div>
-        </div>
-
-    </div>
-    <div>
-        <img src="/image6.png" alt="Moi" class="w-83 h-auto mt-10" />
-    </div>
-
+<div class="p-6 sm:p-12 flex flex-col md:flex-row justify-between items-center">
   
-    
+  <div class="flex flex-col text-center md:text-left space-y-6 sm:space-y-8 font-serif text-base sm:text-lg md:text-xl font-bold w-full md:w-1/2">
+    <b class="text-3xl sm:text-4xl lg:text-6xl font-serif">Contact Me</b>
+    <b>
+      <span class="text-pink-700">Feel free to reach out</span> — I’m always open to new ideas, collaborations, or simple questions.
+    </b>
+
+    <div class="space-y-4 mt-4">
+      <div class="flex items-center justify-center md:justify-start space-x-2">
+        <img src="/contact.png" class="w-10 h-10">
+        <p>{{user.email}}</p>
+      </div>
+      <div class="flex items-center justify-center md:justify-start space-x-2">
+        <img src="/phone.png" class="w-10 h-10">
+        <b>{{user.phone}}</b>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
+    <img src="/image6.png" alt="Moi" class="w-64 sm:w-80 md:w-96 h-auto">
+  </div>
+
 </div>
